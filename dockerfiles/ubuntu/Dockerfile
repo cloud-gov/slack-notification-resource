@@ -2,12 +2,11 @@ ARG base_image
 
 FROM ${base_image}
 
-RUN apt update && apt upgrade -y
-RUN apt install \
-      curl \
-      bash \
-      jq \
-      gettext
+RUN apt update && apt install -y \
+ curl \
+ bash \
+ jq \
+ gettext
 
 COPY check /opt/resource/check
 COPY in    /opt/resource/in
