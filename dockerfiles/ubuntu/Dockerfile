@@ -2,6 +2,7 @@ ARG base_image
 
 FROM ${base_image}
 
+
 RUN apt update && apt install -y \
  curl \
  bash \
