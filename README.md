@@ -1,7 +1,7 @@
 Slack notification sending resource
 ===================================
 
-Sends messages to [Slack](https://slack.com).
+Sends messages to [Slack](https://slack.com). 
 
 Resource Type Configuration
 ---------------------------
